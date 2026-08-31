@@ -30,7 +30,7 @@ int bsIterative(int arr[], int n, int key)
 
         else if (arr[mid] < key)
             low = mid + 1;
-
+ 
         else
             high = mid - 1;
     }

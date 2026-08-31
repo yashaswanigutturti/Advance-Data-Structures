@@ -69,16 +69,13 @@ int main()
     printf("Enter starting vertex: ");
     scanf("%d", &start);
 
-    // BFS
     bfs(start);
 
-    // Reset visited for DFS
     for (i = 0; i < n; i++)
         visited[i] = 0;
 
-    // DFS
     printf("\nDFS Traversal: ");
     dfs(start);
 
     return 0;
-}
+}./
